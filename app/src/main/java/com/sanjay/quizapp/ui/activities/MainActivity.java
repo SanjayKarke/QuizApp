@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     QuestionDao questionDao;
 
     private CompositeDisposable disposables = new CompositeDisposable();
-    private long timerFullTime = 20000;
+    private long timerFullTime = 120000;
     private long intervalTime = 1000;
     private List<Question> questionList = new ArrayList<>();
     private ProgressBar progressBar;
